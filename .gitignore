@@ -1,0 +1,44 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+.venv*/
+venv/
+env/
+
+# Editor and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Confidential research data
+data/
+private/
+confidential/
+raw_data/
+*.las
+*.dlis
+*.mseed
+*.xlsx
+*.xls
+*.parquet
+*.h5
+*.hdf5
+*.tif
+*.tiff
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Synthetic demonstration results are intentionally public
+!results/
+!results/synthetic_demo/
